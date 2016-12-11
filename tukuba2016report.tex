@@ -22,13 +22,11 @@
 \begin{document}
 
 \title{超低重心6輪独立懸架ローバーの画像情報による自律走行}
-\name{○佐々井 翔也, 畠中 和久,  戸澗 健, 剱崎　健太郎, \\北山　天斗, 澤田　茂人, 伊藤 恒平 (金沢工業高等専門学校)}
+\name{佐々井 翔也, 畠中 和久,  戸澗 健, 剱崎　健太郎, \\北山　天斗, 澤田　茂人, 伊藤 恒平 (金沢工業高等専門学校)}
 \etitle{Ultra-low center of gravity six -wheel rover with Autonomous travel from the image information}
-\ename{○Shoya SASAI, Kazuhisa HATAKENAKA, Takeru TOMA Kentaro KENZAKI, \\Takato KITAYAMA , Shigeto SAWADA and Kouhei ITO}
+\ename{Shoya SASAI, Kazuhisa HATAKENAKA, Takeru TOMA Kentaro KENZAKI, \\Takato KITAYAMA , Shigeto SAWADA and Kouhei ITO}
 
-\abst{
-%自律走行するロボットには安定した走りと悪路での振動の小ささ,そしてコンパクトである事が大切になる.しかし車輪を大きくすると安定性はあるがコンパクトでない.今回参加するつくばチャレンジでは市街の走行であり,信号を渡る際のスロープや路上のコンクリート,タイルなどの凸凹道を転倒せずに安定して走行できるロボットの開発が必要である.そこで今年は重心を低くすることで走行に安定性を持たせることを目的として独立懸架の6輪のローバー型ロボットを製作する.また,自動車などを中心に自動運転技術が発展してきている.それに伴い画像処理によって自身の位置を認識する技術の需要が高まっている.そこで,今回はOpenCV（正式名称： Open Source Computer Vision Library）という画像や動画を処理することに適しているオープンソースのコンピューター・ビジョン・ライブラリを用いて自身の位置を特定する仕組みを作成,ルート上の自己位置を認識しズレを修正しながら走行することでつくばチャレンジ完走を目的とする.
-We developed new rover with 6 wheels independent suspention for Tukuba challenge 2016. The robot is very low center of gravity and stable. In this year, We tried to develop a autonomous moving robot using mono camera robot vision. The robot vision use Open CV. We used camera calibration and 3D reconstruction in Open CV. 
+\abst{本年度のつくばチャレンジでは、新たに開発中を決意した台車の実環境での走行試験と画像により自律走行するための技術的知見を得ることを目標として参加した。これまでの台車が大型で重心も高く不安定であったため、輸送時に輸送コストを低く抑えられ、低重心で少しくらいの悪路でも走行可能な６輪独立懸架で６輪駆動の台車を作成した。また、自己位置推定と自律走行においては測域センサを活用してきたが、即行きセンサの役割を単眼カメラ画像に担わせることはできないかの検討を始めた。
 }
 
 \maketitle
